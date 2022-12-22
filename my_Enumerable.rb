@@ -1,4 +1,4 @@
-module My_Enumerable
+module MyEnumerable
   def all?
     output = true
     each { |i|
@@ -8,7 +8,7 @@ module My_Enumerable
 
   def any?
     output = false
-    each do |i| 
+    each do |i|
       output = true if yield i
     end
     print 'any method: ', "\n", output, "\n"
