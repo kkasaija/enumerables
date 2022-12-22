@@ -1,4 +1,4 @@
-module my_Enumerable
+module MyEnumerable
   def all?
     output = true
     each |i|
