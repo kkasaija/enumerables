@@ -1,8 +1,7 @@
 module MyEnumerable
   def all?
     output = true
-    each |i|
-      output = false unless yield i
+    each {|i| output = false unless yield i }
     print 'all method: ', "\n", output, "\n"
   end
 
@@ -21,5 +20,4 @@ module MyEnumerable
     end
     print 'filter method: ', "\n", output_arr
   end
-
 end
