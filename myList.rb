@@ -14,5 +14,4 @@ class MyList
       counter += 1
     end
   end
-
 end

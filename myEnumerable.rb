@@ -18,5 +18,4 @@ module MyEnumerable
     end
     print 'filter method: ', "\n", outputArr
   end
-
 end
