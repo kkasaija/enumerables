@@ -1,8 +1,8 @@
-module MyEnumerable
+module my_Enumerable
   def all?
     output = true
-    each { |i|
-      output = false unless yield i }
+    each |i|
+      output = false unless yield i
     print 'all method: ', "\n", output, "\n"
   end
 
@@ -15,11 +15,11 @@ module MyEnumerable
   end
 
   def filter
-    output_Arr = []
-    each do |i| 
-      output_Arr.push i if yield i
+    output_arr = []
+    each do |i|
+      output_arr.push i if yield i
     end
-    print 'filter method: ', "\n", output_Arr
+    print 'filter method: ', "\n", output_arr
   end
 
 end
