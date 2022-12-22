@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Decode-morse-message] <a name="about-project"></a>
+# 📖 [ ENUMERABLES] <a name="about-project"></a>
 
-> A Ruby script that decodes a message into a string.
+> A Ruby script that has any?, all? and filter methods recreated.
 
-**[Decode-morse-message]** is a...
+**[ENUMERABLES]** is a...
 
 ## 🛠 Built With <a name="built-with">Ruby</a>
 
