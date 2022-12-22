@@ -1,7 +1,7 @@
-require_relative 'my_enumerable'
+require_relative 'my_Enumerable'
 
 class myList
-  include My_Enumerable
+  include my_Enumerable
 
   def initialize(*list)
     @list = list

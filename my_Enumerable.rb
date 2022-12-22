@@ -1,4 +1,4 @@
-module my_enumerable
+module my_Enumerable
   def all?
     output = true
     each { |i|
@@ -21,4 +21,5 @@ module my_enumerable
     end
     print 'filter method: ', "\n", output_Arr
   end
+
 end
